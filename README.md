@@ -20,21 +20,21 @@
 ## Flow
 
 ### Login
-> Login.jsp
-> LoginServlet.java
+-> Login.jsp
+-> LoginServlet.java
 
 ### Manage-item
-> Manage-items.jsp
-> AdminDAO.java
-> AdminBean.java
+-> Manage-items.jsp
+-> AdminDAO.java
+-> AdminBean.java
 
 ### Edit-item
-> Manage-items.jsp
-> edit-items.jsp 
-> AdminDAO.java (showing current data)
-> edit-items.jsp
-> UpdateAdminServlet.java
-> AdminDAO.java
+-> Manage-items.jsp
+-> edit-items.jsp 
+-> AdminDAO.java (showing current data)
+-> edit-items.jsp
+-> UpdateAdminServlet.java
+-> AdminDAO.java
 
 ```Code Flow
  // menampilkan data sebelum update
@@ -181,8 +181,8 @@
 ``` 
 
 ### Delete-item
-> Manage=items.jsp
-> AdminDAO.java
+-> Manage=items.jsp
+-> AdminDAO.java
 
 ```Code Flow
 // manage-items > deleteservlet >
@@ -235,10 +235,10 @@
 ``` 
   
 ### Add-item    
-> Manage.items.jsp
-> add-items.jsp
-> additemservlet.java
-> adminDAO.java
+-> Manage.items.jsp
+-> add-items.jsp
+-> additemservlet.java
+-> adminDAO.java
 
 ```Code Flow
 // add-items.jsp >
