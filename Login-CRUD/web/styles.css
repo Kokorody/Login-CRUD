@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+.admin-container {
+    display: flex;
+    flex: 1; /* Allow the container to take up remaining space */
+    height: 100%;
+}
+
+.highlight {
+    color: #c91e1e;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #0d1015;
+    border-bottom: #a60000 3px solid;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed; /* Keep the navbar at the top */
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    color: #ededed;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: background 0.3s;
+}
+
+.nav-item a:hover, .nav-item.active a {
+    background-color: #e74c3c;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #ecf0f1;
+    padding: 80px 20px 20px; /* Adjusted for fixed navbar */
+    margin-top: 60px; /* Adjusted for fixed navbar */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.content-header {
+    margin-bottom: 20px;
+}
+
+.content-header h2 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.content-body {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.item-table th, .item-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #0d1015;
+    color: white;
+}
+
+.edit {
+    color: green;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #0d1015;
+    color: white;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    font-family: 'Russo One', sans-serif;
+    border: #a60000 3px solid;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.content-body button {
+    align-self: center; 
+    width: 50%;
+    height: auto;
+}
+
+/* Custom file upload button */
+#file-upload {
+    display: none;
+}
+
+.custom-file-upload {
+    align-self: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: #313131;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    border: #a60000 3px solid;
+    width: 30%;
+}
+
+.custom-file-upload:hover {
+    background-color: #c0392b;
+}
