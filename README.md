@@ -15,7 +15,7 @@
 2. Navigate to the project directory:
 
     ```bash
-    cd [Login-CRUD
+    cd Login-CRUD
     ```
 ## Flow
 
