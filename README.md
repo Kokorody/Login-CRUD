@@ -26,7 +26,7 @@
 ### Manage-item
 -> Manage-items.jsp
 -> AdminDAO.java
--> AdminBean.java
+-> AdminBean.java (adminbean is the place where's the data submitted/collected or retrieved taken place, this file usually takes place(used) in the middle or the last part of the flow or when feature taken progress (this is why there is no adminbean below this part).)
 
 ### Edit-item
 -> Manage-items.jsp
